@@ -36,9 +36,9 @@ nav{background:var(--ink);position:sticky;top:0;z-index:100;border-bottom:1px so
 .nav-title{font-family:'Bodoni Moda',serif;font-size:1.1rem;color:white;font-weight:600;letter-spacing:0.02em}
 .nav-sub{font-size:0.6rem;font-weight:500;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold)}
 .nav-links{display:flex;gap:2rem;list-style:none}
-.nav-links a{font-size:0.75rem;font-weight:400;letter-spacing:0.04em;color:var(--slate-xl);text-decoration:none;transition:color 0.2s}
+.nav-links a{font-size:0.75rem;font-weight:400;letter-spacing:0.04em;color:white;text-decoration:none;transition:color 0.2s}
 .nav-links a:hover{color:var(--gold)}
-.nav-cta{background:var(--gold);color:var(--ink);border:none;font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;padding:0.6rem 1.4rem;cursor:pointer;transition:all 0.2s}
+.nav-cta{background:var(--gold);color:white;border:none;font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;padding:0.6rem 1.4rem;cursor:pointer;transition:all 0.2s}
 .nav-cta:hover{background:var(--gold-l)}
 
 /* HERO */
@@ -55,8 +55,8 @@ nav{background:var(--ink);position:sticky;top:0;z-index:100;border-bottom:1px so
 .hero-sub{font-size:1rem;font-weight:300;color:rgba(255,255,255,0.75);max-width:600px;line-height:1.8;margin-bottom:2.5rem}
 .hero-stats{display:flex;gap:3rem;flex-wrap:wrap}
 .hstat{display:flex;flex-direction:column;gap:0.15rem}
-.hstat-val{font-family:'Bodoni Moda',serif;font-size:2rem;font-weight:600;color:white}
-.hstat-label{font-size:0.68rem;font-weight:500;color:rgba(255,255,255,0.6);letter-spacing:0.08em;text-transform:uppercase}
+.hstat-val{font-family:'Bodoni Moda',serif;font-size:2rem;font-weight:700;color:white}
+.hstat-label{font-size:0.68rem;font-weight:500;color:rgba(255,255,255,0.9);letter-spacing:0.08em;text-transform:uppercase}
 
 /* SECTIONS */
 .sec{padding:5.5rem 0}
@@ -72,14 +72,16 @@ nav{background:var(--ink);position:sticky;top:0;z-index:100;border-bottom:1px so
 .value .eyebrow{color:var(--gold)}
 .value .h2{color:white}
 .value .h2 em{color:var(--gold)}
-.value .desc{color:rgba(255,255,255,0.45)}
+.value .desc{color:rgba(255,255,255,0.9)}
 .val-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
 .val-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);padding:2rem 1.75rem;transition:border-color 0.3s}
 .val-card:hover{border-color:var(--gold)}
 .val-icon{width:44px;height:44px;border:1px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem}
 .val-icon svg{width:20px;height:20px;stroke:var(--gold)}
-.val-title{font-size:0.95rem;font-weight:600;color:white;margin-bottom:0.4rem}
-.val-desc{font-size:0.78rem;font-weight:300;color:rgba(255,255,255,0.4);line-height:1.7}
+.val-title{font-size:0.95rem;font-weight:700;color:var(--gold);margin-bottom:0.4rem}
+.val-desc{font-size:0.78rem;font-weight:300;color:rgba(255,255,255,0.9);line-height:1.7}
+.val-cta{display:inline-block;background:var(--gold);color:white;font-family:'Inter',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;padding:0.95rem 2.5rem;text-decoration:none;transition:background 0.2s}
+.val-cta:hover{background:var(--gold-l)}
 
 /* KEY NUMBERS */
 .numbers{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -140,13 +142,13 @@ nav{background:var(--ink);position:sticky;top:0;z-index:100;border-bottom:1px so
 .docs .eyebrow{color:var(--gold)}
 .docs .h2{color:white}
 .docs .h2 em{color:var(--gold)}
-.docs .desc{color:rgba(255,255,255,0.4)}
+.docs .desc{color:rgba(255,255,255,0.9)}
 .docs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2.5rem}
 .doc-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);padding:1.5rem;transition:all 0.3s}
 .doc-card:hover{border-color:var(--gold);background:rgba(201,168,76,0.05)}
-.doc-num{font-family:'Bodoni Moda',serif;font-size:1.8rem;font-weight:600;color:var(--gold);opacity:0.4;margin-bottom:0.5rem}
+.doc-num{font-family:'Bodoni Moda',serif;font-size:1.8rem;font-weight:700;color:#e8621a;opacity:1;margin-bottom:0.5rem}
 .doc-title{font-size:0.88rem;font-weight:600;color:white;margin-bottom:0.35rem}
-.doc-desc{font-size:0.72rem;font-weight:300;color:rgba(255,255,255,0.35);line-height:1.7}
+.doc-desc{font-size:0.72rem;font-weight:300;color:rgba(255,255,255,0.85);line-height:1.7}
 
 /* GALLERY */
 .gallery{background:var(--ink);padding:4px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:4px}
@@ -163,7 +165,7 @@ nav{background:var(--ink);position:sticky;top:0;z-index:100;border-bottom:1px so
 .loc-item{display:flex;justify-content:space-between;align-items:center;padding:0.5rem 0.75rem;background:var(--bg2);border-left:3px solid var(--gold)}
 .loc-name{font-size:0.82rem;color:var(--ink)}
 .loc-time{font-size:0.75rem;font-weight:600;color:var(--gold)}
-.loc-map{background:var(--bg2);border:1px solid var(--line);padding:2.5rem;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.25rem;min-height:360px}
+.loc-map{background:var(--bg2);border:1px solid var(--line);overflow:hidden}
 .loc-map p{font-size:0.82rem;color:var(--slate-l);text-align:center;line-height:1.8}
 .loc-map-addr{font-size:0.95rem;font-weight:600;color:var(--ink);text-align:center}
 
@@ -179,26 +181,26 @@ nav{background:var(--ink);position:sticky;top:0;z-index:100;border-bottom:1px so
 .fin-full::before{background:var(--gold)}
 .fin-full .fin-label{color:var(--gold)}
 .fin-full .fin-value{color:white}
-.fin-full .fin-note{color:rgba(255,255,255,0.4)}
+.fin-full .fin-note{color:rgba(255,255,255,0.8)}
 .fin-breakdown{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-top:1.5rem}
 .fin-bd-item{display:flex;flex-direction:column;gap:0.15rem}
-.fin-bd-val{font-family:'Bodoni Moda',serif;font-size:1.3rem;font-weight:600;color:var(--gold)}
-.fin-bd-label{font-size:0.65rem;font-weight:500;color:rgba(255,255,255,0.4);letter-spacing:0.05em}
+.fin-bd-val{font-family:'Bodoni Moda',serif;font-size:1.3rem;font-weight:700;color:#e8621a}
+.fin-bd-label{font-size:0.65rem;font-weight:500;color:rgba(255,255,255,0.8);letter-spacing:0.05em}
 
 /* CTA */
 .cta-sec{background:var(--ink);padding:5rem 0;text-align:center}
 .cta-sec .eyebrow{justify-content:center;color:var(--gold)}
 .cta-sec .h2{color:white;text-align:center;margin:0 auto 0.5rem}
 .cta-sec .h2 em{color:var(--gold)}
-.cta-desc{font-size:0.88rem;font-weight:300;color:rgba(255,255,255,0.4);max-width:550px;margin:0 auto 2.5rem;line-height:1.8;text-align:center}
+.cta-desc{font-size:0.88rem;font-weight:300;color:rgba(255,255,255,0.85);max-width:550px;margin:0 auto 2.5rem;line-height:1.8;text-align:center}
 .cta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;max-width:1000px;margin:0 auto;text-align:left}
 .cta-info{display:flex;flex-direction:column;gap:1.5rem}
 .cta-item{display:flex;gap:0.85rem;align-items:flex-start}
 .cta-icon{width:38px;height:38px;min-width:38px;background:rgba(255,255,255,0.06);display:flex;align-items:center;justify-content:center}
 .cta-icon svg{width:16px;height:16px}
-.cta-label{font-size:0.58rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.35)}
+.cta-label{font-size:0.58rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.75)}
 .cta-val{font-size:0.92rem;font-weight:500;color:white}
-.cta-sub{font-size:0.72rem;color:rgba(255,255,255,0.3)}
+.cta-sub{font-size:0.72rem;color:rgba(255,255,255,0.65)}
 .form{display:flex;flex-direction:column;gap:0.6rem}
 .fi{width:100%;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);color:white;font-family:'Inter',sans-serif;font-size:0.85rem;padding:0.8rem 1rem;outline:none;transition:border-color 0.2s}
 .fi::placeholder{color:rgba(255,255,255,0.25)}
@@ -207,13 +209,13 @@ nav{background:var(--ink);position:sticky;top:0;z-index:100;border-bottom:1px so
 .fta{min-height:90px;resize:vertical}
 .fsub{width:100%;background:var(--gold);color:var(--ink);border:none;font-family:'Inter',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;padding:0.95rem;cursor:pointer;transition:all 0.2s}
 .fsub:hover{background:var(--gold-l)}
-.fcons{font-size:0.65rem;color:rgba(255,255,255,0.25);line-height:1.6;margin-top:0.3rem}
+.fcons{font-size:0.65rem;color:rgba(255,255,255,0.55);line-height:1.6;margin-top:0.3rem}
 
 /* FOOTER */
-footer{background:#080808;padding:2rem 2.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;border-top:1px solid rgba(255,255,255,0.05)}
+footer{background:#152038;padding:2rem 2.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;border-top:1px solid rgba(255,255,255,0.1)}
 .foot-brand{font-family:'Bodoni Moda',serif;font-size:1rem;color:var(--gold);font-weight:600}
-.foot-info{font-size:0.65rem;color:rgba(255,255,255,0.2);line-height:1.7;max-width:550px}
-.foot-legal{font-size:0.6rem;color:rgba(255,255,255,0.15);line-height:1.7}
+.foot-info{font-size:0.65rem;color:rgba(255,255,255,0.8);line-height:1.7;max-width:550px}
+.foot-legal{font-size:0.6rem;color:rgba(255,255,255,0.65);line-height:1.7}
 
 /* ANIMATIONS */
 .reveal{opacity:0;transform:translateY(30px);transition:opacity 0.7s cubic-bezier(0.22,1,0.36,1),transform 0.7s cubic-bezier(0.22,1,0.36,1)}
@@ -254,7 +256,7 @@ footer{background:#080808;padding:2rem 2.5rem;display:flex;justify-content:space
 <nav>
   <div class="nav-in">
     <div class="nav-brand" style="flex-direction:row;align-items:center;gap:0.75rem">
-      <svg width="56" height="34" viewBox="0 0 82 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg width="82" height="46" viewBox="0 0 82 46" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g stroke="var(--gold)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
           <!-- 4 connected terraced house silhouette — peaks at each segment -->
           <path d="M2,43 L2,24 L12,10 L22,24 L32,10 L42,24 L52,10 L62,24 L72,10 L82,24 L82,43 Z" fill="none"/>
@@ -346,6 +348,9 @@ footer{background:#080808;padding:2rem 2.5rem;display:flex;justify-content:space
         <div class="val-title">Wizualizacje i materiały sprzedażowe</div>
         <div class="val-desc">Profesjonalne wizualizacje 3D, strona internetowa gotowa, rzuty lokali — możliwość natychmiastowego startu przedsprzedaży.</div>
       </div>
+    </div>
+    <div style="text-align:center;margin-top:3rem">
+      <a href="#kontakt" class="val-cta">Umów się na rozmowę →</a>
     </div>
   </div>
 </section>
@@ -662,9 +667,11 @@ footer{background:#080808;padding:2rem 2.5rem;display:flex;justify-content:space
         </div>
       </div>
       <div class="loc-map">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--slate-xl)" stroke-width="1"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        <div class="loc-map-addr">ul. Liliowa<br>32-620 Brzeszcze<br>pow. oświęcimski, woj. małopolskie</div>
-        <p>Dz. nr 781/303, obr. 0002<br>Brzeszcze-Jawiszowice<br>jedn. ewid. 121302_4</p>
+        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=19.130%2C49.990%2C19.175%2C50.015&layer=mapnik&marker=50.001%2C19.153" width="100%" height="300" style="border:0;display:block" loading="lazy" title="Lokalizacja Park Liliowa"></iframe>
+        <div style="padding:1.25rem">
+          <div class="loc-map-addr">ul. Liliowa, 32-620 Brzeszcze</div>
+          <p style="font-size:0.78rem;color:var(--slate-l);line-height:1.7;margin-top:0.35rem">Dz. nr 781/303, obr. 0002 · Brzeszcze-Jawiszowice · jedn. ewid. 121302_4</p>
+        </div>
       </div>
     </div>
   </div>
@@ -692,8 +699,8 @@ footer{background:#080808;padding:2rem 2.5rem;display:flex;justify-content:space
         </div>
         <div style="background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.2);padding:1.25rem 1.5rem;margin-top:0.5rem">
           <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:0.3rem">Projekt architektoniczny</div>
-          <div style="font-size:0.85rem;color:rgba(255,255,255,0.7)">arch. Waldemar Wielgosz</div>
-          <div style="font-size:0.75rem;color:rgba(255,255,255,0.35)">Grupa T44 Sp. z o.o., Kraków</div>
+          <div style="font-size:0.85rem;color:rgba(255,255,255,0.9)">arch. Waldemar Wielgosz</div>
+          <div style="font-size:0.75rem;color:rgba(255,255,255,0.7)">Grupa T44 Sp. z o.o., Kraków</div>
         </div>
       </div>
       <div>
