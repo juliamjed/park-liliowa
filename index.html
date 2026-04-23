@@ -257,6 +257,7 @@ footer{background:#152038;padding:2rem 2.5rem;display:flex;justify-content:space
   body.scrolled .nav-cta{opacity:0;visibility:hidden;transform:scale(0.9);pointer-events:none}
 }
 #floating-cta {
+  display: none;
   position: fixed;
   bottom: 28px;
   right: 24px;
@@ -270,7 +271,6 @@ footer{background:#152038;padding:2rem 2.5rem;display:flex;justify-content:space
   letter-spacing: 0.15em;
   text-transform: uppercase;
   cursor: pointer;
-  display: flex;
   align-items: center;
   gap: 10px;
   opacity: 0;
@@ -278,6 +278,9 @@ footer{background:#152038;padding:2rem 2.5rem;display:flex;justify-content:space
   pointer-events: none;
   transition: background 0.2s, transform 0.3s ease, opacity 0.3s ease;
   z-index: 1000;
+}
+@media(max-width:600px){
+  #floating-cta { display: flex; }
 }
 body.scrolled #floating-cta {
   opacity: 1;
