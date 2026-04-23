@@ -259,44 +259,44 @@ footer{background:#152038;padding:2rem 2.5rem;display:flex;justify-content:space
 #floating-cta {
   display: none;
   position: fixed;
-  bottom: 28px;
-  right: 24px;
-  padding: 15px 28px;
+  bottom: 16px;
+  left: 50%;
+  padding: 10px 20px;
   background: #c8763c;
   border: none;
   color: #fff;
   font-family: 'Inter', sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   cursor: pointer;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   opacity: 0;
-  transform: translateY(120%);
+  transform: translate(-50%, 120%);
   pointer-events: none;
   transition: background 0.2s, transform 0.3s ease, opacity 0.3s ease;
   z-index: 1000;
+  white-space: nowrap;
 }
 @media(max-width:600px){
   #floating-cta { display: flex; }
 }
 body.scrolled #floating-cta {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate(-50%, 0);
   pointer-events: auto;
 }
 body.scrolled #floating-cta:hover {
   background: #a85e2a;
-  transform: translateY(-2px);
 }
 #floating-cta .arrow {
   transition: transform 0.2s;
   display: inline-block;
 }
 #floating-cta:hover .arrow {
-  transform: translateX(5px);
+  transform: translateX(4px);
 }
 </style> <script type="application/ld+json">
 {
