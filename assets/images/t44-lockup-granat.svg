@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 160" role="img" aria-label="Grupa T44, grupa deweloperska">
+  <g fill="#24395D"><rect x="0" y="0" width="160" height="26"/><rect x="67" y="0" width="26" height="160"/><rect x="0" y="100" width="160" height="26"/></g>
+  <polygon fill="#7B2340" points="0,100 67,26 67,59.2 30,100"/>
+  <text x="208" y="106" fill="#24395D" font-family="Archivo,Arial,Helvetica,sans-serif" font-size="96" font-weight="800" letter-spacing="-4">T44</text>
+  <text x="210" y="136" fill="#7B2340" font-family="Archivo,Arial,Helvetica,sans-serif" font-size="12" font-weight="600" letter-spacing="4.4">GRUPA DEWELOPERSKA</text>
+</svg>
