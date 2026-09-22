@@ -13,7 +13,7 @@
      GA_ID       — identyfikator Google Analytics 4.
   --------------------------------------------------------------------- */
   var CFG = {
-    SHEETS_URL: '',
+    SHEETS_URL: 'https://script.google.com/macros/s/AKfycbyaXegjWsKqUQQaLUgu_4m-vLB9ScQJVPi0ic6HhTA1QiAp7gaKHo197AAB_PJ8Ro-_mQ/exec',
     BACKUP_MAIL: 'natalie@grupat44.pl',
     GA_ID: 'G-PK3Y3Y2Q5E',
     CONSENT_VERSION: '2026-09'
